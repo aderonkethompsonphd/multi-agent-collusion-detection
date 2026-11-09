@@ -75,6 +75,8 @@ Run the scripts from the project root. Simulated datasets and model outputs are 
 
 ### CERT-derived external experiment
 
+New-Item -ItemType Directory -Force data/cert
+
 Download `feature_matrix_v1.parquet` from https://zenodo.org/records/19435851 and save it at:
 
 ```text

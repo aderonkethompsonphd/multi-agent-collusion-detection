@@ -61,6 +61,8 @@ If PowerShell prevents activation, run `.\.venv\Scripts\python.exe` in place of 
 ### Simulated experiments
 
 ```powershell
+New-Item -ItemType Directory -Force data, results
+
 python simulation.py
 python explore_data.py
 python anomaly_detection.py
